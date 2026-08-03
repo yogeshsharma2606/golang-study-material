@@ -1,0 +1,21 @@
+go 1.22
+
+use (
+	./labs/00-setup/hello
+	./labs/01-basics
+	./labs/02-slices-maps
+	./labs/03-interfaces
+	./labs/04-errors
+	./labs/05-goroutines-channels
+	./labs/06-sync-memory-model
+	./labs/07-context
+	./labs/08-testing-benchmarks
+	./labs/09-http-api
+	./labs/10-databases
+	./labs/11-profiling
+	./labs/12-concurrency-patterns
+	./labs/13-design-patterns
+	./labs/14-microservices
+	./labs/15-grpc
+	./labs/16-docker/app
+)
