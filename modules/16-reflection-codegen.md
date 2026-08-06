@@ -41,16 +41,18 @@ const (
 
 ```mermaid
 flowchart LR
+
     subgraph Runtime["Runtime Reflection"]
-        Any[interface{} / any] --> TypeOf[reflect.TypeOf]
-        TypeOf --> TypeMeta[Type: Kind, Name, NumField]
-        Any --> ValueOf[reflect.ValueOf]
-        ValueOf --> ValueOps[Set, Call, Field, Index]
+        Any["interface{} / any"] --> TypeOf["reflect.TypeOf"]
+        TypeOf --> TypeMeta["Type: Kind, Name, NumField"]
+        Any --> ValueOf["reflect.ValueOf"]
+        ValueOf --> ValueOps["Set, Call, Field, Index"]
     end
+
     subgraph BuildTime["Build-Time Codegen"]
-        Directive["//go:generate mockgen"] --> GoGenerate[go generate ./...]
-        GoGenerate --> Generated[generated .go files]
-        Generated --> Compile[go build]
+        Directive["//go:generate mockgen"] --> GoGenerate["go generate ./..."]
+        GoGenerate --> Generated["generated .go files"]
+        Generated --> Compile["go build"]
     end
 ```
 
