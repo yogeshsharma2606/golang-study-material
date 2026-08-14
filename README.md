@@ -38,7 +38,7 @@ Then explore modules starting with [Module 1 — Go Fundamentals](modules/01-go-
 
 ---
 
-## Curriculum (28 modules)
+## Curriculum (30 modules)
 
 ### Group 1 — Language Fundamentals
 
@@ -107,6 +107,18 @@ Then explore modules starting with [Module 1 — Go Fundamentals](modules/01-go-
 | 26 | [Microservices in Go](modules/26-microservices-go.md) | Service boundaries, Saga, CQRS, service mesh, resilience |
 | 27 | [Security & Distributed Systems](modules/27-security-distributed.md) | Auth, TLS, secrets, CAP, consensus, distributed locks |
 | 28 | [Tooling, CI/CD & Containers](modules/28-tooling-cicd-containers.md) | Docker, Kubernetes, GitHub Actions, linting, release |
+
+### Group 9 — Interview Gotchas
+
+| # | Module | Topics |
+|---|--------|--------|
+| 29 | [Gotchas & Trace-the-Output](modules/29-gotchas-trace-output.md) | Slice aliasing, defer timing, map order/nil, pass-by-value, nil interface, goroutines & deadlocks |
+
+### Group 10 — Runtime Internals
+
+| # | Module | Topics |
+|---|--------|--------|
+| 30 | [Go Runtime Internals](modules/30-go-runtime-internals.md) | Map implementation and iteration, GMP scheduling, channel internals, garbage collection, HTTP netpoller |
 
 ---
 
